@@ -1,4 +1,71 @@
+
+/* Format ordinateur*/
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('font/Shrikhand-Regular.ttf') format('ttf');
+    font-family: 'Roboto';
+    src: url('font/Roboto-Regular.ttf') format('ttf');
+ 
+}
+
 body{
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+nav .logo{
+    display: block;
+    text-align: center;
+    padding: 2%;
+    box-shadow: 0px 3px #8080801f;
+    position: relative;
+}
+
+nav .regrouping .stage{
+    width: 50%;
+    height: 315px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+nav .regrouping .map{
+    display: flex;
+    align-items: center;
+    height: 57px;
+    padding-left: 35%;
+    font-size: 23px;
+    background: rgb(240, 240, 240); 
+}
+
+nav .regrouping .sta-one-nav form input{
+border: none;
+font-family: 'Roboto';
+color: rgb(68, 68, 68);
+background: rgb(240, 240, 240);
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+
+nav .regrouping .reserve h1{
+        margin: 0;
+        padding-top: 5%;
+}
+
+
+nav .regrouping .reserve{
+    background: rgb(247, 247, 247); 
+    height: 315px;   
+}
+
+nav .regrouping .reserve button{
+    background: linear-gradient( 170deg,#FF79DA, #9356DC);
+    border: none;
+    width: 23%;
+    color: white;
+    height: 42px;
+    border-radius: 30px;
+}
+
+
+/* Format mobile*/
